@@ -10,7 +10,10 @@ import {
   slideInFromTop,
 } from "@/lib/motion";
 
+import React, { useState } from "react";
+
 export const HeroContent = () => {
+  const [showMore, setShowMore] = useState(false);
   return (
     <motion.div
       initial="hidden"
@@ -20,11 +23,11 @@ export const HeroContent = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
+          className="Welcome-box py-[8px] px-[15px] border border-[#7042f88b] opacity-[0.9]]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+          <SparklesIcon className="text-white mr-[10px] h-5 w-10" />
+          <h1 className="text-white text-[25px] ml-[-17px]">
+            Ahmad Arif Nuhuda
           </h1>
         </motion.div>
 
@@ -35,25 +38,32 @@ export const HeroContent = () => {
           <span>
             Providing{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              the best
+              The Best
             </span>{" "}
-            project experience.
+            Project Experience.
           </span>
         </motion.div>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-white my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          A university student specialized in computer science, passionate in Software Engineering, development,
+          and business innovation I possess the ability to effectively prepare project requirements, streamline workflows,
+          and strategize the design and feature development process. I am proficient in utilizing a range of tools to maximize efficiency and optimize outcomes.
+          {showMore && (
+            <span className="inline"> Additionally, I enjoy meeting and connecting with people and am enthusiastic about contributing ideas and insights to create impactful events,
+              foster networking, and strengthen public engagement. I am eager to explore opportunities as a software developer in the field of business development and research, while also building meaningful professional relationships.
+              With the knowledge I have in the field of computer science, especially in Artificial Intelligence (AI), I hope to be able to contribute fully.</span>
+          )}
         </motion.p>
 
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          onClick={() => setShowMore((prev) => !prev)}
         >
-          Learn more
+          {showMore ? "Show less" : "Learn more"}
         </motion.a>
       </div>
 

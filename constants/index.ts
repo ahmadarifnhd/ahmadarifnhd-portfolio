@@ -92,17 +92,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com/ahmadarifnhd_",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://facebook.com/ahmadarifnhd",
   },
   {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    name: "Linkedin",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/ahmadarifnhd/",
   },
 ] as const;
 
@@ -259,86 +259,46 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Expert System - Stunting Diagnosis",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'This project is a web-based expert system developed using the Bootstrap framework. It helps healthcare workers and parents detect early signs of stunting in toddlers. By analyzing height, weight, and age data through the Forward Chaining method, the system provides quick diagnosis results and nutritional recommendations. The goal is to simplify early detection and support child growth monitoring digitally.',
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://stuntdec.ct.ws",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Lembar Pintar -  Web App",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      'Developed and improved the Lembar Pintar web app — a Canva-like graphic design platform — by creating a clean, responsive, and user-friendly interface. Implemented modern UI/UX principles, built secure API routes using Next.js, and integrated the Midtrans Payment Gateway to support premium user payments. Collaborated closely with the development team to ensure smooth interaction between front-end and back-end systems.',
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "#",
   },
   {
-    title: "Space Themed Website",
+    title: "Anxiety Reliever",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'Anxiety Reliever is a web-based mental health platform designed to help students manage anxiety and improve emotional well-being. It provides an anxiety assessment quiz, personalized coping recommendations, and educational resources to support users in understanding and reducing anxiety. Built using Adonis.js and TypeScript, the system offers a simple, accessible, and supportive environment for early mental health awareness.',
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "#",
   },
 ] as const;
 
 export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
-  },
   {
     title: "Social Media",
     data: [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://instagram.com/ahmadarifnhd_",
       },
       {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        name: "Facebook",
+        icon: FaFacebook,
+        link: "https://facebook.com/ahmadarifnhd",
       },
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
+        link: "https://www.linkedin.com/in/ahmadarifnhd/",
       },
     ],
   },
@@ -360,5 +320,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/ahmadarifnhd",
 };
