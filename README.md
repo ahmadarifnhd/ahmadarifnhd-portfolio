@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <a name="readme-top"></a>
 
 # Modern Space Theme Portfolio using Next.js 14 and Three.js
@@ -190,3 +191,6 @@ You can also give this repository a star to show more people and they can use th
 
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+=======
+# my-portfolio
+>>>>>>> f6f52fd1ef1f19a0da28553f25bfb61ecc7eaaf1
